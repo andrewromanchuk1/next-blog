@@ -1,0 +1,22 @@
+{"timestamp":"192:28:09.158","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.160","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection:\" Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.162","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection: \" Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.202","source":"Server","level":"ERROR","message":"⨯ PageNotFoundError: Cannot find module for page: route not found /_not-found/page"}
+{"timestamp":"192:28:09.770","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, open '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/.next/dev/static/development/_buildManifest.js.tmp.hfgewdtvdmr'"}
+{"timestamp":"192:28:09.772","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.776","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.779","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.783","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.785","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.791","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.792","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.795","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.796","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.800","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.801","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.803","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.804","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.818","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:09.825","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:34.364","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
+{"timestamp":"192:28:34.367","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir '/Users/Andrew/Desktop/work/next-blog/nextjs-blog-app/src/app'"}
