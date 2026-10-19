@@ -1,0 +1,138 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px;
+  box-sizing: border-box;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(239, 68, 68, 0.16),
+    transparent 60%
+  );
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #f87171;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.12);
+  box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.08);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f87171;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.text {
+  margin: 16px 0 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #a1a1aa;
+}
+
+.digest {
+  margin: 20px 0 0;
+  padding: 6px 12px;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 12px;
+  color: #71717a;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.primary,
+.secondary {
+  padding: 11px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+}
+
+.primary {
+  color: #ffffff;
+  border: 1px solid transparent;
+  background: #6366f1;
+}
+
+.secondary {
+  color: #e4e4e7;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: transparent;
+}
+
+.primary:focus-visible,
+.secondary:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover {
+    background: #4f46e5;
+  }
+
+  .secondary:hover {
+    border-color: #818cf8;
+    background: rgba(255, 255, 255, 0.04);
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 36px 24px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+}
