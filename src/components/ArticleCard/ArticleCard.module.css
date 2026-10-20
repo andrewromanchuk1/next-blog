@@ -42,8 +42,15 @@
   color: #71717a;
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .cardLink {
-  align-self: center;
   display: inline-flex;
   align-items: center;
   gap: 6px;

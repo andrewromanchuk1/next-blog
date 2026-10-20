@@ -1,27 +1,27 @@
+import Link from 'next/link';
+import styles from '../error.module.css';
+
 const ErrorBoundaryPage = () => {
   return (
-    <div>
-      <h1>Error Boundary Page</h1>
-      <p>This is the error boundary page content.</p>
+    <div className={styles.page}>
+      <section className={styles.card}>
+        <div className={styles.icon} aria-hidden="true">
+          ?
+        </div>
+        <p className={styles.eyebrow}>404</p>
+        <h1 className={styles.title}>Page not found</h1>
+        <p className={styles.text}>
+          The page you are looking for does not exist or has been moved.
+        </p>
+
+        <div className={styles.actions}>
+          <Link href="/" className={styles.primary}>
+            Go home
+          </Link>
+        </div>
+      </section>
     </div>
   );
 };
 
 export default ErrorBoundaryPage;
-
-export const delayedFunc = async (
-  data: unknown,
-  options: { shouldFail: boolean; timeout: number }
-) => {
-  const { shouldFail, timeout } = options;
-
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      if (shouldFail) {
-        reject(data);
-      } else {
-        resolve(data);
-      }
-    }, timeout);
-  });
-};

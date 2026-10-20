@@ -4,7 +4,7 @@ import styles from './page.module.css';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import ArticlesSkeleton from './ArticlesSkeleton';
-import ArticleCard from '../components/ArticleCard';
+import ArticleCard from '../components/ArticleCard/ArticleCard';
 
 const PAGE_SIZE = 3;
 
@@ -26,7 +26,9 @@ async function Articles({ page }: { page?: string }) {
     <>
       <ul className={styles.grid}>
         {articlesToDisplay.map((article) => (
-          <ArticleCard key={article.name} article={article} />
+          <li key={article.name}>
+            <ArticleCard article={article} />
+          </li>
         ))}
       </ul>
       <nav className={styles.pagination} aria-label="Pagination">

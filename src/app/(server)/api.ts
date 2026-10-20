@@ -12,5 +12,5 @@ export function getArticleByName(name: string) {
     throw new Error(`Article with name "${name}" not found`);
   }
 
-  return delayed(article, { timeout: 1500, shouldFail: false });
+  return delayed(article, { timeout: 500, shouldFail: false });
 }
