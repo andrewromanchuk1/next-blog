@@ -2,7 +2,7 @@
 'use client';
 
 import Link from 'next/link';
-import styles from './style.module.css';
+import styles from './ArticleCard.module.css';
 import { useEffect, useState } from 'react';
 
 const ArticleCard = ({
